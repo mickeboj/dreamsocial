@@ -30,5 +30,5 @@ def instaTag(hashtag):
     
     url="https://instagram.com/explore/tags/"+hashtag+"/"
     rawdata=cleanData(getData(url))
-    print "Antal inlägg på #"+hashtag + "är " + numberOfPost(rawdata)
+    print "Antal inlägg på #"+hashtag + " är " + numberOfPost(rawdata)
     
