@@ -1,3 +1,3 @@
-/**
- * Created by Mikael on 2015-04-09.
- */
+$(document).ready(function(){
+   alert('gustav!!!!')
+});
