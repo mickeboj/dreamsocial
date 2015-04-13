@@ -8,9 +8,6 @@ $(document).ready(function(){
        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
    }
     initialize();
-    $.get("test.php",function(data){
-        alert(data);
-    });
 
 
 
